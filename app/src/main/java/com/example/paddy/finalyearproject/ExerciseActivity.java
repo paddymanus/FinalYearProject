@@ -173,7 +173,7 @@ public class ExerciseActivity extends AppCompatActivity implements View.OnClickL
          //   for (int i1 = 0; i1 <= lvPosition - fvPosition; i1++) {
 
                 if (set.length() != 0) {
-                    set = set.concat("\n ");
+                    set = set.concat("\n");
                 }
                 set = set.concat(String.valueOf(exerciseSet.getWeight() + " x " + String.valueOf(exerciseSet.getReps())));
                 Log.d(TAG, "getSet: " + set);
